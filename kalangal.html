@@ -3,25 +3,317 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Kalangal - Sulur Villages</title>
+    <title>Kalangal Village | Sulur, Coimbatore</title>
     <script src="https://cdn.tailwindcss.com"></script>
-    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+        }
+        .data-table th, .data-table td {
+            border: 1px solid #e2e8f0;
+            padding: 1rem;
+            text-align: left;
+        }
+        .data-table th {
+            background-color: #f1f5f9;
+        }
+    </style>
 </head>
 <body class="bg-gray-100 text-gray-800">
-    <header class="bg-blue-600 text-white shadow-lg py-4 text-center">
-        <h1 class="text-3xl font-bold">Kalangal</h1>
+
+    <header class="bg-white shadow-sm">
+        <div class="container mx-auto px-4 sm:px-6 lg:px-8 py-4 flex justify-between items-center">
+            <a href="#" class="font-bold text-2xl text-blue-600">VillageInfo</a>
+            <nav>
+                <ul class="flex space-x-4">
+                    <li><a href="#" class="hover:text-blue-600">Home</a></li>
+                    <li><a href="#" class="hover:text-blue-600">About</a></li>
+                    <li><a href="#" class="hover:text-blue-600">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
-    <main class="container mx-auto px-6 py-12">
-        <div class="bg-white rounded-xl shadow-lg p-8">
-            <h2 class="text-2xl font-semibold mb-4">About Kalangal</h2>
-            <img src="https://placehold.co/600x400/81c784/ffffff?text=Noyyal+Riverbank" alt="Noyyal riverbank near Kalangal" class="rounded-lg mb-6 w-full object-cover">
-            <p class="text-gray-700 leading-relaxed">
-                Kalangal is a village on the outskirts of Sulur, located near the holy **Noyyal River**. It is known for its peaceful atmosphere and the close connection of its residents to the land.
+
+    <main class="container mx-auto px-4 sm:px-6 lg:px-8 py-8">
+
+        <nav class="text-sm mb-6">
+            <ol class="list-none p-0 inline-flex text-gray-600">
+                <li class="flex items-center">
+                    <a href="#" class="hover:underline">Home</a>
+                    <span class="mx-2">›</span>
+                </li>
+                <li class="flex items-center">
+                    <a href="#" class="hover:underline">Tamil Nadu</a>
+                    <span class="mx-2">›</span>
+                </li>
+                <li class="flex items-center">
+                    <a href="#" class="hover:underline">Coimbatore</a>
+                    <span class="mx-2">›</span>
+                </li>
+                <li class="flex items-center">
+                    <a href="#" class="hover:underline">Sulur</a>
+                    <span class="mx-2">›</span>
+                </li>
+                <li class="text-gray-900 font-medium">Kalangal</li>
+            </ol>
+        </nav>
+
+        <h1 class="text-4xl font-extrabold text-gray-900 mb-6">Kalangal</h1>
+        
+        <div class="bg-white rounded-xl shadow-lg p-8 space-y-8">
+            <p class="text-lg leading-relaxed">
+                Kalangal is a village located in <a href="#" class="text-blue-600 hover:underline">Sulur</a> taluka of <a href="#" class="text-blue-600 hover:underline">Coimbatore</a> district in <a href="#" class="text-blue-600 hover:underline">Tamil Nadu</a>, India. It is situated 4km away from sub-district headquarter Sulur (tehsildar office) and 21km away from district headquarter Coimbatore. As per 2009 stats, Kalangal village is also a gram panchayat.
             </p>
-            <div class="mt-8 text-center">
-                <a href="index.html" class="primary-button inline-block">Back to Home</a>
-            </div>
+            <p class="text-lg leading-relaxed">
+                Kalangal has its own place in the vibrant Coimbatore region. In the following sections, you’ll find details about population, literacy, households, children, caste data, area, pincode, local governance, nearby villages, connectivity, and more.
+            </p>
+
+            <section id="about">
+                <h2 class="text-2xl font-bold text-blue-800 mb-4">About Kalangal</h2>
+                <p class="leading-relaxed">
+                    According to Census 2011, the location code or village code of Kalangal is 644379. The village spans a total geographical area of 1500.58 hectares, and the pincode of the locality is 641402. Kannam Palayam is nearest town to Kalangal village for all major economic activities.
+                </p>
+            </section>
+
+            <section id="map">
+                <h2 class="text-2xl font-bold text-blue-800 mb-4">Google Map of Kalangal</h2>
+                <div class="bg-gray-200 h-96 w-full flex items-center justify-center rounded-lg shadow-inner text-gray-500">
+                    <span class="text-center">Google Map Placeholder</span>
+                </div>
+                <p class="text-sm text-gray-600 mt-2">
+                    The Map data on this website is provided by Google Maps, a free online map service one can access and view in a web browser.
+                </p>
+            </section>
+
+            <section id="population">
+                <h2 class="text-2xl font-bold text-blue-800 mb-4">Population of Kalangal</h2>
+                <p class="leading-relaxed mb-4">
+                    Below is a concise population overview of Kalangal as per the Census 2011 data. The table highlights the key population metrics categorized by gender and social groups.
+                </p>
+                <div class="overflow-x-auto">
+                    <table class="data-table w-full border-collapse table-auto">
+                        <thead>
+                            <tr class="bg-gray-200 text-gray-700 uppercase text-sm">
+                                <th class="py-3 px-4">Particulars</th>
+                                <th class="py-3 px-4">Total</th>
+                                <th class="py-3 px-4">Male</th>
+                                <th class="py-3 px-4">Female</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Total Population</td>
+                                <td>5,590</td>
+                                <td>2,853</td>
+                                <td>2,737</td>
+                            </tr>
+                            <tr>
+                                <td>Child Population (0–6 yrs)</td>
+                                <td>500</td>
+                                <td>272</td>
+                                <td>228</td>
+                            </tr>
+                            <tr>
+                                <td>Scheduled Castes (SC)</td>
+                                <td>784</td>
+                                <td>400</td>
+                                <td>384</td>
+                            </tr>
+                            <tr>
+                                <td>Scheduled Tribes (ST)</td>
+                                <td>N/A</td>
+                                <td>N/A</td>
+                                <td>N/A</td>
+                            </tr>
+                            <tr>
+                                <td>Literate Population</td>
+                                <td>3,889</td>
+                                <td>2,158</td>
+                                <td>1,731</td>
+                            </tr>
+                            <tr>
+                                <td>Illiterate Population</td>
+                                <td>1,701</td>
+                                <td>695</td>
+                                <td>1,006</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <p class="leading-relaxed mt-6">
+                    Here's a detailed summary of the Basic Population Details of Kalangal village:
+                </p>
+                <ul class="list-disc list-inside space-y-2 mt-4 text-gray-700">
+                    <li>The total population of Kalangal village is around 5,590, including approximately 2,853 males and 2,737 females, with a sex ratio of 959 females per 1,000 males.</li>
+                    <li>There are about 500 children aged 0–6 years in Kalangal village, reflecting the young population in the village.</li>
+                    <li>Kalangal village has 784 people belonging to the Scheduled Castes (SC).</li>
+                    <li>The literacy rate of Kalangal village is about 69.57%, with male literacy at 75.64% and female literacy at 63.24%.</li>
+                    <li>There are around 1,639 households in Kalangal village.</li>
+                </ul>
+            </section>
+
+            <section id="connectivity">
+                <h2 class="text-2xl font-bold text-blue-800 mb-4">Connectivity of Kalangal</h2>
+                <p class="leading-relaxed mb-4">
+                    Connectivity plays a major role in improving access, opportunities, and overall development of villages like Kalangal. As per the 2011 stats, Kalangal had access to public bus service, private bus service and railway station.
+                </p>
+                <div class="overflow-x-auto">
+                    <table class="data-table w-full border-collapse table-auto">
+                        <thead>
+                            <tr class="bg-gray-200 text-gray-700 uppercase text-sm">
+                                <th class="py-3 px-4">Connectivity Type</th>
+                                <th class="py-3 px-4">Status (in year 2011)</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Public Bus Service</td>
+                                <td>Available within village</td>
+                            </tr>
+                            <tr>
+                                <td>Private Bus Service</td>
+                                <td>Available within village</td>
+                            </tr>
+                            <tr>
+                                <td>Railway Station</td>
+                                <td>Available within 5 - 10 km distance</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </section>
+
+            <section id="nearby-villages">
+                <h2 class="text-2xl font-bold text-blue-800 mb-4">Nearby Villages of Kalangal</h2>
+                <p class="leading-relaxed mb-4">
+                    Knowing the nearby villages of Kalangal helps you understand the local area better. The following list of nearby villages gives a clear view of the villages around Kalangal.
+                </p>
+                <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
+                    <ul class="list-disc list-inside">
+                        <li>Mylampatti</li>
+                        <li>Rasipalayam</li>
+                        <li>Kadampadi</li>
+                        <li>Kangayampalayam</li>
+                        <li>Appanaickenpatti</li>
+                    </ul>
+                    <ul class="list-disc list-inside">
+                        <li>Peedampalli</li>
+                        <li>Kallapalayam</li>
+                        <li>Pappampatti</li>
+                        <li>Edayapalayam</li>
+                        <li>Sellakkarichal</li>
+                        <li>Vadambacheri</li>
+                    </ul>
+                </div>
+            </section>
+
+            <section id="faq">
+                <h2 class="text-2xl font-bold text-blue-800 mb-4">Frequently Asked Questions about Kalangal</h2>
+                <div class="space-y-4">
+                    <div>
+                        <h3 class="text-lg font-semibold text-gray-900">Where is Kalangal located?</h3>
+                        <p class="text-gray-700">Kalangal village is situated in Sulur Taluka, within the Coimbatore district of Tamil Nadu, India.</p>
+                    </div>
+                    <div>
+                        <h3 class="text-lg font-semibold text-gray-900">What is the gram panchayat of Kalangal?</h3>
+                        <p class="text-gray-700">Kalangal serves as its own Gram Panchayat (as per 2009 stats), overseeing its local governance and development.</p>
+                    </div>
+                    <div>
+                        <h3 class="text-lg font-semibold text-gray-900">What is the pincode of Kalangal?</h3>
+                        <p class="text-gray-700">The pincode of Kalangal is 641402, which is used for postal services and delivery within the village.</p>
+                    </div>
+                    <div>
+                        <h3 class="text-lg font-semibold text-gray-900">What is the population of Kalangal as per the 2011 Census?</h3>
+                        <p class="text-gray-700">As per the 2011 Census, the population of Kalangal is 5,590, with 2,853 males and 2,737 females.</p>
+                    </div>
+                    <div>
+                        <h3 class="text-lg font-semibold text-gray-900">How many households are there in Kalangal as per the 2011 Census?</h3>
+                        <p class="text-gray-700">As per the 2011 Census, Kalangal village has a total of 1,639 households.</p>
+                    </div>
+                    <div>
+                        <h3 class="text-lg font-semibold text-gray-900">What is the literacy rate in Kalangal as per the 2011 Census?</h3>
+                        <p class="text-gray-700">According to the 2011 Census, the literacy rate in Kalangal is 69.57%. The male literacy rate is 75.64%, while the female literacy rate is 63.24%.</p>
+                    </div>
+                </div>
+            </section>
+
+            <section id="overview">
+                <h2 class="text-2xl font-bold text-blue-800 mb-4">Kalangal - Village Overview</h2>
+                <div class="overflow-x-auto">
+                    <table class="data-table w-full border-collapse table-auto">
+                        <tbody>
+                            <tr>
+                                <td class="font-semibold">Gram Panchayat :</td>
+                                <td>Kalangal</td>
+                            </tr>
+                            <tr>
+                                <td class="font-semibold">Block / Taluka :</td>
+                                <td>Sulur</td>
+                            </tr>
+                            <tr>
+                                <td class="font-semibold">District :</td>
+                                <td>Coimbatore</td>
+                            </tr>
+                            <tr>
+                                <td class="font-semibold">State :</td>
+                                <td>Tamil Nadu</td>
+                            </tr>
+                            <tr>
+                                <td class="font-semibold">Pincode :</td>
+                                <td>641402</td>
+                            </tr>
+                            <tr>
+                                <td class="font-semibold">Area :</td>
+                                <td>1500.58 hectares</td>
+                            </tr>
+                            <tr>
+                                <td class="font-semibold">Sex Ratio (2011):</td>
+                                <td>959</td>
+                            </tr>
+                            <tr>
+                                <td class="font-semibold">Population (2011):</td>
+                                <td>5,590</td>
+                            </tr>
+                            <tr>
+                                <td class="font-semibold">Households :</td>
+                                <td>1,639</td>
+                            </tr>
+                            <tr>
+                                <td class="font-semibold">Nearest Town :</td>
+                                <td>Kannam Palayam</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </section>
+
+            <section id="related-pages">
+                <h2 class="text-xl font-bold text-gray-900 mb-2">Related Pages</h2>
+                <ul class="list-disc list-inside space-y-1 text-blue-600">
+                    <li><a href="#" class="hover:underline">List of Villages in Sulur</a></li>
+                    <li><a href="#" class="hover:underline">List of Talukas in Coimbatore</a></li>
+                    <li><a href="#" class="hover:underline">List of Districts in Tamil Nadu</a></li>
+                </ul>
+            </section>
+
         </div>
     </main>
+
+    <footer class="bg-gray-800 text-gray-300 py-6">
+        <div class="container mx-auto px-4 sm:px-6 lg:px-8 text-center sm:flex sm:justify-between sm:items-center">
+            <nav class="sm:order-2 mb-4 sm:mb-0">
+                <ul class="flex justify-center space-x-4">
+                    <li><a href="#" class="hover:text-white">Home</a></li>
+                    <li><a href="#" class="hover:text-white">Contact</a></li>
+                    <li><a href="#" class="hover:text-white">Terms & Conditions</a></li>
+                    <li><a href="#" class="hover:text-white">Privacy Policy</a></li>
+                </ul>
+            </nav>
+            <div class="sm:order-1 text-sm">
+                <p>&copy; 2025 Villageinfo.in. All rights reserved.</p>
+                <p class="mt-2 text-xs text-gray-400">* All survey data is based on Office of the Registrar General & Census Commissioner, Ministry of Home Affairs, Government of India, 2015 (censusindia.gov.in). Open Government Data Platform India.</p>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>
