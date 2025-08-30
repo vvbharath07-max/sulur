@@ -3,25 +3,474 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Arasur - Sulur Villages</title>
+    <title>Arasur | A Village in Sulur, Coimbatore</title>
     <script src="https://cdn.tailwindcss.com"></script>
-    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+        }
+        .section-box {
+            @apply bg-white p-6 rounded-lg shadow-sm mb-6;
+        }
+        .service-list > div {
+            @apply border-b border-gray-200 py-3 last:border-b-0;
+        }
+    </style>
 </head>
 <body class="bg-gray-100 text-gray-800">
-    <header class="bg-blue-600 text-white shadow-lg py-4 text-center">
-        <h1 class="text-3xl font-bold">Arasur</h1>
+
+    <header class="bg-white shadow-sm sticky top-0 z-50">
+        <div class="container mx-auto px-4 sm:px-6 lg:px-8 py-3 flex justify-between items-center">
+            <div class="flex items-center space-x-4">
+                <a href="#" class="font-bold text-2xl text-blue-600">villageInfo</a>
+                <nav class="hidden md:flex space-x-4 text-sm">
+                    <a href="#" class="hover:text-blue-600">Home</a>
+                    <a href="#" class="hover:text-blue-600">About</a>
+                    <a href="#" class="hover:text-blue-600">Contact</a>
+                </nav>
+            </div>
+            <div class="flex items-center space-x-4 text-sm">
+                <a href="#" class="text-blue-600 hover:underline">Login</a>
+                <span class="text-gray-400">|</span>
+                <a href="#" class="text-blue-600 hover:underline">Register</a>
+            </div>
+        </div>
+        <nav class="bg-blue-600 text-white shadow-md">
+            <div class="container mx-auto px-4 py-2 text-sm overflow-x-auto whitespace-nowrap">
+                <a href="#" class="inline-block px-3 hover:bg-blue-700 py-1 rounded">City Bus</a>
+                <a href="#" class="inline-block px-3 hover:bg-blue-700 py-1 rounded">Maps</a>
+                <a href="#" class="inline-block px-3 hover:bg-blue-700 py-1 rounded">Villages</a>
+                <a href="#" class="inline-block px-3 hover:bg-blue-700 py-1 rounded">Cities</a>
+                <a href="#" class="inline-block px-3 hover:bg-blue-700 py-1 rounded">Rail</a>
+                <a href="#" class="inline-block px-3 hover:bg-blue-700 py-1 rounded">Tourist Places</a>
+                <a href="#" class="inline-block px-3 hover:bg-blue-700 py-1 rounded">School</a>
+                <a href="#" class="inline-block px-3 hover:bg-blue-700 py-1 rounded">College</a>
+                <a href="#" class="inline-block px-3 hover:bg-blue-700 py-1 rounded">Pin Codes</a>
+                <a href="#" class="inline-block px-3 hover:bg-blue-700 py-1 rounded">Corona Cases Count</a>
+            </div>
+        </nav>
     </header>
-    <main class="container mx-auto px-6 py-12">
-        <div class="bg-white rounded-xl shadow-lg p-8">
-            <h2 class="text-2xl font-semibold mb-4">About Arasur</h2>
-            <img src="https://placehold.co/600x400/81c784/ffffff?text=Arasur+Farmlands" alt="Farmlands in Arasur" class="rounded-lg mb-6 w-full object-cover">
-            <p class="text-gray-700 leading-relaxed">
-                Arasur is a notable village known for its **agricultural landscape** and serene environment. It's a key part of the Sulur constituency, contributing to the region's green cover and farming-based economy.
-            </p>
-            <div class="mt-8 text-center">
-                <a href="index.html" class="primary-button inline-block">Back to Home</a>
+
+    <main class="container mx-auto px-4 sm:px-6 lg:px-8 py-8">
+        <div class="bg-white p-6 rounded-lg shadow-lg">
+
+            <nav class="text-sm text-gray-500 mb-4">
+                <a href="#" class="hover:underline">Home</a> &gt;
+                <a href="#" class="hover:underline">Tamil Nadu</a> &gt;
+                <a href="#" class="hover:underline">Coimbatore</a> &gt;
+                <a href="#" class="hover:underline">Sulur</a> &gt;
+                <span class="font-medium text-gray-900">Arasur</span>
+            </nav>
+
+            <h1 class="text-4xl font-bold text-gray-900 mb-2">Arasur</h1>
+
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-4 text-sm mb-6">
+                <div><span class="font-semibold">Locality Name:</span> Arasur ( அரசூர் )</div>
+                <div><span class="font-semibold">Block Name:</span> Sulur</div>
+                <div><span class="font-semibold">District:</span> Coimbatore</div>
+                <div><span class="font-semibold">State:</span> Tamil Nadu</div>
+                <div><span class="font-semibold">Language:</span> Tamil And English</div>
+                <div><span class="font-semibold">Current Time:</span> 11:48 AM</div>
+                <div><span class="font-semibold">Date:</span> Saturday , Aug 30,2025 (IST)</div>
+                <div><span class="font-semibold">Time zone:</span> IST (UTC+5:30)</div>
+                <div><span class="font-semibold">Elevation / Altitude:</span> 364 meters. Above Seal level</div>
+                <div><span class="font-semibold">Telephone Code / Std Code:</span> 04255</div>
+            </div>
+
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-4 text-sm mb-6">
+                <div><span class="font-semibold">Assembly constituency:</span> Sulur assembly constituency</div>
+                <div><span class="font-semibold">Assembly MLA:</span> Kandasamy V.P.</div>
+                <div><span class="font-semibold">Lok Sabha constituency:</span> Coimbatore parliamentary constituency</div>
+                <div><span class="font-semibold">Parliament MP:</span> NATARAJAN. P.R</div>
+                <div><span class="font-semibold">Serpanch Name:</span> Update Serpanch Name</div>
+                <div><span class="font-semibold">Pin Code:</span> 641407</div>
+                <div><span class="font-semibold">Post Office Name:</span> Arasur <a href="#" class="text-blue-500 hover:underline">(correct Pin Code, if wrong)</a></div>
+            </div>
+
+            <div class="section-box">
+                <h2 class="text-xl font-bold text-blue-800 mb-4">Arasur Live Weather</h2>
+                <div class="flex items-center justify-between mb-4">
+                    <div>
+                        <p class="text-lg font-semibold">Temperature: 26.0 °C</p>
+                        <p class="text-gray-600">mist</p>
+                    </div>
+                    <div class="text-right">
+                        <p>Humidity: 78%</p>
+                        <p>Wind : 4.12 mt/sec towards SW</p>
+                    </div>
+                </div>
+                <p class="text-sm text-gray-500">StationName : "Sulur" observed on 2 Hours Back</p>
+
+                <h3 class="text-lg font-semibold mt-6 mb-2">Arasur Weather Forecast for Next 5 days</h3>
+                <div class="space-y-2 text-sm">
+                    <p><span class="font-semibold">31-08-2025:</span> 21.8°C to 31.1°C, scattered clouds, light rain, overcast clouds</p>
+                    <p><span class="font-semibold">01-09-2025:</span> 21.6°C to 30.5°C, overcast clouds, broken clouds, light rain</p>
+                    <p><span class="font-semibold">02-09-2025:</span> 21.5°C to 30.7°C, overcast clouds, broken clouds, light rain, scattered clouds</p>
+                    <p><span class="font-semibold">03-09-2025:</span> 21.2°C to 31.0°C, overcast clouds, broken clouds, scattered clouds</p>
+                    <p><span class="font-semibold">04-09-2025:</span> 21.4°C to 29.5°C, overcast clouds, light rain</p>
+                </div>
+            </div>
+            
+            <div class="section-box">
+                <h2 class="text-xl font-bold text-blue-800 mb-2">Overview of Arasur</h2>
+                <p class="leading-relaxed">In ARASUR 200 years old Very famous Hindu temple named as ARASUR MARIYAPAN TEMPLE IS There.surrounding 12 villagers will celebrate ARASUR MARIYAMAN'S FUNCTION every 5 years once.MARIAMMAN IS A POWERFUL GOD.</p>
+            </div>
+
+            <div class="section-box grid md:grid-cols-2 gap-6">
+                <div>
+                    <h3 class="text-lg font-semibold mb-2">National Highways Reachable To Arasur</h3>
+                    <ul class="list-disc list-inside space-y-1">
+                        <li>Nationa High Way : NH381A</li>
+                        <li>Nationa High Way : NH544</li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="text-lg font-semibold mb-2">Rivers Near Arasur</h3>
+                    <ul class="list-disc list-inside space-y-1">
+                        <li>Noyyal River : நொய்யல் ஆறு</li>
+                        <li>Bhavani</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="section-box">
+                <h2 class="text-xl font-bold text-blue-800 mb-2">About Arasur</h2>
+                <p class="leading-relaxed">Arasur is a Village in Sulur Block in Coimbatore District of Tamil Nadu State, India. It is located 19 KM towards East from District head quarters Coimbatore. 3 KM from Sulur. 474 KM from State capital Chennai</p>
+                <p class="mt-2 leading-relaxed">Arasur Pin code is 641407 and postal head office is Arasur .</p>
+                <p class="mt-2 leading-relaxed">Rasipalayam ( 3 KM ) , Neelambur ( 4 KM ) , Muthugoundan Pudur Tiruppur ( 4 KM ) , Tiruppur ( 4 KM ) , Pachapalayam ( 5 KM ) are the nearby Villages to Arasur. Arasur is surrounded by Sarcarsamakulam Block towards west , Annur Block towards North , Palladam Block towards East , Coimbatore Block towards west .</p>
+                <p class="mt-2 leading-relaxed">Coimbatore , Palladam , Tiruppur , Coonoor are the near by Cities to Arasur.</p>
+                <p class="mt-2 leading-relaxed">This Place is in the border of the Coimbatore District and Tiruppur District. Tiruppur District Palladam is East towards this place .</p>
+            </div>
+
+            <div class="section-box grid md:grid-cols-2 gap-6">
+                <div>
+                    <h3 class="text-lg font-semibold mb-2">Demographics of Arasur</h3>
+                    <p>Tamil And English is the Local Language here.</p>
+                </div>
+                <div>
+                    <h3 class="text-lg font-semibold mb-2">Politics in Arasur</h3>
+                    <p>DMDK , KNMK , AIADMK are the major political parties in this area.</p>
+                </div>
+            </div>
+            
+            <div class="section-box">
+                <h3 class="text-lg font-semibold mb-2">Polling Stations /Booths near Arasur</h3>
+                <ol class="list-decimal list-inside space-y-1">
+                    <li>Government Higher Secondary School Senjeriputhur-641671</li>
+                    <li>Government Higher Secondary School Arasur-641407</li>
+                    <li>Government Higher Secondary School Arasur-641407</li>
+                    <li>Government Higher Secondary School Arasur-641407</li>
+                    <li>Government Higher Secondary School Arasur-641407</li>
+                </ol>
+            </div>
+
+            <div class="section-box">
+                <h3 class="text-lg font-semibold mb-2">HOW TO REACH Arasur</h3>
+                <h4 class="font-medium mt-2">By Rail</h4>
+                <p>Sulur Road Rail Way Station , Tiruppur Somanur Rail Way Station are the very nearby railway stations to Arasur.</p>
+            </div>
+
+            <div class="section-box grid md:grid-cols-2 gap-6">
+                <div>
+                    <h3 class="text-lg font-semibold mb-2">Colleges near Arasur</h3>
+                    <ul class="list-disc list-inside space-y-2 text-sm">
+                        <li>Maharaja Arts&science Collage</li>
+                        <li>Maharaja Arts And Science College<br>Address : Arasur Post Arasur- 641407 , Tamilnadu, India</li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="text-lg font-semibold mb-2">Schools in Arasur</h3>
+                    <ul class="list-disc list-inside space-y-2 text-sm">
+                        <li>Ghss, Arasur<br>Address : arasur , sulur , coimbatore , Tamil Nadu . PIN- 641407 , Post - Arasur</li>
+                        <li>Pums Uthupalayam<br>Address : arasur , sulur , coimbatore , Tamil Nadu . PIN- 641407 , Post - Arasur</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="section-box">
+                <h3 class="text-lg font-semibold mb-2">Sub Villages in Arasur</h3>
+                <div class="grid md:grid-cols-2 gap-2 text-sm">
+                    <ul class="list-disc list-inside">
+                        <li>Kollupalayam</li>
+                        <li>Sangothipalayam</li>
+                        <li>Subbarayapalayam</li>
+                        <li>Uthupalayam</li>
+                    </ul>
+                    <ul class="list-disc list-inside">
+                        <li>Pothiyampalayam</li>
+                        <li>Sengodagoundenpudur</li>
+                        <li>Thennampalayam</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+
+                <div class="section-box">
+                    <h3 class="text-lg font-semibold mb-2">Bus Stops in Arasur, Sulur</h3>
+                    <div class="service-list">
+                        <div>
+                            <p class="font-medium">Arasur</p>
+                            <p class="text-sm text-gray-600">Arasur; Tamil Nadu 641048; India</p>
+                            <p class="text-xs text-gray-500">0.7 KM distance</p>
+                        </div>
+                        <div>
+                            <p class="font-medium">Arasur</p>
+                            <p class="text-sm text-gray-600">Arasur; Tamil Nadu 641048; India</p>
+                            <p class="text-xs text-gray-500">0.7 KM distance</p>
+                        </div>
+                        <div>
+                            <p class="font-medium">Arasur Bus Stop</p>
+                            <p class="text-sm text-gray-600">Arasur; Tamil Nadu 641048; India</p>
+                            <p class="text-xs text-gray-500">1.0 KM distance</p>
+                        </div>
+                        <div>
+                            <p class="font-medium">Arasur School Bus Stop</p>
+                            <p class="text-sm text-gray-600">Arasur; Tamil Nadu 641407; India</p>
+                            <p class="text-xs text-gray-500">1.2 KM distance</p>
+                        </div>
+                        <a href="#" class="text-sm text-blue-500 hover:underline mt-2 inline-block">more ..</a>
+                    </div>
+                </div>
+
+                <div class="section-box">
+                    <h3 class="text-lg font-semibold mb-2">ATMs in Arasur, Sulur</h3>
+                    <div class="service-list">
+                        <div>
+                            <p class="font-medium">IOB ATM</p>
+                            <p class="text-sm text-gray-600">Thennampalayam; Tamil Nadu 641407; India</p>
+                            <p class="text-xs text-gray-500">1.7 KM distance</p>
+                        </div>
+                        <div>
+                            <p class="font-medium">KVB ATM</p>
+                            <p class="text-sm text-gray-600">Thennampalayam; Tamil Nadu 641048; India</p>
+                            <p class="text-xs text-gray-500">1.9 KM distance</p>
+                        </div>
+                        <div>
+                            <p class="font-medium">City Union Bank ATM</p>
+                            <p class="text-sm text-gray-600">Tiruppur; Tamil Nadu 641048; India</p>
+                            <p class="text-xs text-gray-500">2.2 KM distance</p>
+                        </div>
+                        <div>
+                            <p class="font-medium">Sbi Atm</p>
+                            <p class="text-sm text-gray-600">; Tamil Nadu 641062; India</p>
+                            <p class="text-xs text-gray-500">2.5 KM distance</p>
+                        </div>
+                        <a href="#" class="text-sm text-blue-500 hover:underline mt-2 inline-block">more ..</a>
+                    </div>
+                </div>
+
+                <div class="section-box">
+                    <h3 class="text-lg font-semibold mb-2">Cinema Theaters in Arasur, Sulur</h3>
+                    <div class="service-list">
+                        <div>
+                            <p class="font-medium">Maharaja Multiplex Theatre</p>
+                            <p class="text-sm text-gray-600">Transport Nagar; Inside Maharaja Theme Park; Neelambur; L & T Bye Pass Avinashi Road; Coimbatore; Tamil Nadu 641014; India</p>
+                            <p class="text-xs text-gray-500">4.4 KM distance</p>
+                        </div>
+                        <div>
+                            <p class="font-medium">Suntek Automation</p>
+                            <p class="text-sm text-gray-600">PLS Nagar Extension - I; Chinniyampalayam; Tamil Nadu 641004; India</p>
+                            <p class="text-xs text-gray-500">9.2 KM distance</p>
+                        </div>
+                        <div>
+                            <p class="font-medium">Broadway Megaaplex Private Limited</p>
+                            <p class="text-sm text-gray-600">Indira Nagar; Civil Aerodrome Post; Peelamedu; Coimbatore; Tamil Nadu 641004; India</p>
+                            <p class="text-xs text-gray-500">10.4 KM distance</p>
+                        </div>
+                        <a href="#" class="text-sm text-blue-500 hover:underline mt-2 inline-block">more ..</a>
+                    </div>
+                </div>
+
+                <div class="section-box">
+                    <h3 class="text-lg font-semibold mb-2">Temples in Arasur, Sulur</h3>
+                    <div class="service-list">
+                        <div>
+                            <p class="font-medium">Arasur arulmigu Paramasivan kovil</p>
+                            <p class="text-sm text-gray-600">Arasur; Tamil Nadu 641048; India</p>
+                            <p class="text-xs text-gray-500">0.6 KM distance</p>
+                        </div>
+                        <div>
+                            <p class="font-medium">Arulmigu Vinayagar kovil</p>
+                            <p class="text-sm text-gray-600">Arasur; Tamil Nadu 641048; India</p>
+                            <p class="text-xs text-gray-500">0.8 KM distance</p>
+                        </div>
+                        <div>
+                            <p class="font-medium">Makaliamman kovil</p>
+                            <p class="text-sm text-gray-600">Arasur; Tamil Nadu 641048; India</p>
+                            <p class="text-xs text-gray-500">0.9 KM distance</p>
+                        </div>
+                        <div>
+                            <p class="font-medium">Kamatshi amman temple</p>
+                            <p class="text-sm text-gray-600">Arasur; Tamil Nadu 641407; India</p>
+                            <p class="text-xs text-gray-500">1.0 KM distance</p>
+                        </div>
+                        <a href="#" class="text-sm text-blue-500 hover:underline mt-2 inline-block">more ..</a>
+                    </div>
+                </div>
+
+                <div class="section-box">
+                    <h3 class="text-lg font-semibold mb-2">Mosques in Arasur, Sulur</h3>
+                    <div class="service-list">
+                        <div>
+                            <p class="font-medium">Neelambur Masjid (palli Vasal)</p>
+                            <p class="text-sm text-gray-600">1/503 Y; Avinashi Rd; Neelambur Neelambur Tamil Nadu 641062; India</p>
+                            <p class="text-xs text-gray-500">5.4 KM distance</p>
+                        </div>
+                        <div>
+                            <p class="font-medium">Sulur Mosque</p>
+                            <p class="text-sm text-gray-600">Sulur; Tamil Nadu 641402; India</p>
+                            <p class="text-xs text-gray-500">8.1 KM distance</p>
+                        </div>
+                        <div>
+                            <p class="font-medium">Ahmadiyya Masjid; Sulur</p>
+                            <p class="text-sm text-gray-600">Sulur; Tamil Nadu 641402; India</p>
+                            <p class="text-xs text-gray-500">9.1 KM distance</p>
+                        </div>
+                        <a href="#" class="text-sm text-blue-500 hover:underline mt-2 inline-block">more ..</a>
+                    </div>
+                </div>
+
+                <div class="section-box">
+                    <h3 class="text-lg font-semibold mb-2">Hotels, Lodges & Restaurants in Arasur, Sulur</h3>
+                    <div class="service-list">
+                        <div>
+                            <p class="font-medium">Ramya Hotles</p>
+                            <p class="text-sm text-gray-600">National Highway 47; Amman Nagar; Arasur; Tamil Nadu 641407; India</p>
+                            <p class="text-xs text-gray-500">1.6 KM distance</p>
+                        </div>
+                        <div>
+                            <p class="font-medium">Ancient Village Restaurant</p>
+                            <p class="text-sm text-gray-600">Arasur Pirivu; Avinashi Road; Coimbatore; Tamil Nadu 641407; India</p>
+                            <p class="text-xs text-gray-500">1.6 KM distance</p>
+                        </div>
+                        <div>
+                            <p class="font-medium">Arasur Pirivu</p>
+                            <p class="text-sm text-gray-600">Perundurai-Coimbatore Rd; Tamil Nadu 641062; India</p>
+                            <p class="text-xs text-gray-500">1.7 KM distance</p>
+                        </div>
+                        <div>
+                            <p class="font-medium">shaya bakes</p>
+                            <p class="text-sm text-gray-600">Arasur; Tamil Nadu 641048; India</p>
+                            <p class="text-xs text-gray-500">0.8 KM distance</p>
+                        </div>
+                        <a href="#" class="text-sm text-blue-500 hover:underline mt-2 inline-block">more ..</a>
+                    </div>
+                </div>
+
+                <div class="section-box">
+                    <h3 class="text-lg font-semibold mb-2">Hospitals & Petrol Bunks in Arasur, Sulur</h3>
+                    <div class="service-list">
+                        <div>
+                            <p class="font-medium">Sanjeevani Hospital</p>
+                            <p class="text-sm text-gray-600">69/; 2; road annur; Coimbatore; Tamil Nadu; India</p>
+                            <p class="text-xs text-gray-500">1.6 KM distance</p>
+                        </div>
+                        <div>
+                            <p class="font-medium">Reliance Petroleum</p>
+                            <p class="text-sm text-gray-600">NH 47; SURVEY NO. 142/2B 150/1(PART) & 150/2(PART; POST; Arasur; Tamil Nadu 641407; India</p>
+                            <p class="text-xs text-gray-500">0.9 KM distance</p>
+                        </div>
+                        <div>
+                            <p class="font-medium">RANJAN MEDICAL CENTRE</p>
+                            <p class="text-sm text-gray-600">Avinashi Road; Arasur; Tamil Nadu 641407; India</p>
+                            <p class="text-xs text-gray-500">1.8 KM distance</p>
+                        </div>
+                        <div>
+                            <p class="font-medium">indian oil petrol</p>
+                            <p class="text-sm text-gray-600">Tiruppur; Tamil Nadu 641048; India</p>
+                            <p class="text-xs text-gray-500">1.8 KM distance</p>
+                        </div>
+                        <a href="#" class="text-sm text-blue-500 hover:underline mt-2 inline-block">more ..</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="mt-8">
+            <h2 class="text-xl font-bold mb-4">More Information</h2>
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-4 text-sm">
+                <a href="#" class="text-blue-600 hover:underline">About Arasur & History</a>
+                <a href="#" class="text-blue-600 hover:underline">How to reach Arasur</a>
+                <a href="#" class="text-blue-600 hover:underline">Tourist Places Near By Arasur</a>
+                <a href="#" class="text-blue-600 hover:underline">Schools in Arasur</a>
+                <a href="#" class="text-blue-600 hover:underline">Colleges in Arasur</a>
+                <a href="#" class="text-blue-600 hover:underline">Temperature & weather of Arasur</a>
+                <a href="#" class="text-blue-600 hover:underline">places in Arasur</a>
+                <a href="#" class="text-blue-600 hover:underline">Arasur photos</a>
+            </div>
+        </div>
+
+        <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6 mt-8">
+            <div class="section-box">
+                <h3 class="text-lg font-semibold mb-2">Near Cities</h3>
+                <ul class="list-disc list-inside space-y-1 text-sm">
+                    <li>Coimbatore: 20 KM near</li>
+                    <li>Palladam: 25 KM near</li>
+                    <li>Tiruppur: 29 KM near</li>
+                    <li>Coonoor: 51 KM near</li>
+                </ul>
+            </div>
+            <div class="section-box">
+                <h3 class="text-lg font-semibold mb-2">Near By Taluks</h3>
+                <ul class="list-disc list-inside space-y-1 text-sm">
+                    <li>Sulur: 4 KM near</li>
+                    <li>Sarcarsamakulam: 12 KM near</li>
+                    <li>Annur: 17 KM near</li>
+                    <li>Palladam: 20 KM near</li>
+                </ul>
+            </div>
+            <div class="section-box">
+                <h3 class="text-lg font-semibold mb-2">Near By Air Ports</h3>
+                <ul class="list-disc list-inside space-y-1 text-sm">
+                    <li>Peelamedu Airport: 11 KM near</li>
+                    <li>Calicut Airport: 141 KM near</li>
+                    <li>Kochi Airport: 145 KM near</li>
+                    <li>Salem Airport: 146 KM near</li>
+                </ul>
+            </div>
+            <div class="section-box">
+                <h3 class="text-lg font-semibold mb-2">Near By Tourist Places</h3>
+                <ul class="list-disc list-inside space-y-1 text-sm">
+                    <li>Coimbatore: 18 KM near</li>
+                    <li>Tirupur: 29 KM near</li>
+                    <li>Coonoor: 50 KM near</li>
+                    <li>Kotagiri: 51 KM near</li>
+                    <li>Pollachi: 54 KM near</li>
+                </ul>
+            </div>
+            <div class="section-box">
+                <h3 class="text-lg font-semibold mb-2">Near By Districts</h3>
+                <ul class="list-disc list-inside space-y-1 text-sm">
+                    <li>Coimbatore: 18 KM near</li>
+                    <li>Tiruppur: 29 KM near</li>
+                    <li>The Nilgiris: 64 KM near</li>
+                    <li>Palakkad: 67 KM near</li>
+                </ul>
+            </div>
+            <div class="section-box">
+                <h3 class="text-lg font-semibold mb-2">Near By RailWay Station</h3>
+                <ul class="list-disc list-inside space-y-1 text-sm">
+                    <li>Sulur Road Rail Way Station: 5.4 KM near</li>
+                    <li>Coimbatore Main Junction Rail Way Station: 21 KM near</li>
+                    <li>Podanur Junction Rail Way Station: 21 KM near</li>
+                </ul>
             </div>
         </div>
     </main>
+
+    <footer class="bg-gray-800 text-gray-300 py-6 text-sm">
+        <div class="container mx-auto px-4 sm:px-6 lg:px-8 flex flex-col sm:flex-row justify-between items-center">
+            <p>&copy; 2021 onefivenine.com</p>
+            <nav class="mt-4 sm:mt-0 space-x-4">
+                <a href="#" class="hover:underline">Contact Us</a>
+                <span class="text-gray-500">|</span>
+                <a href="#" class="hover:underline">About Us</a>
+                <span class="text-gray-500">|</span>
+                <a href="#" class="hover:underline">Privacy Policy</a>
+            </nav>
+        </div>
+    </footer>
+
 </body>
 </html>
